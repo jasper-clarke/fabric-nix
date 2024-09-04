@@ -52,6 +52,12 @@ python311Packages.buildPythonPackage {
     loguru
     psutil
   ];
+  dontWrapGApps = true;
+
+  preFixup = ''
+    makeWrapperArgs+=("''${gappsWrapperArgs[@]}")
+  '';
+
 
   meta = {
     changelog = "";
