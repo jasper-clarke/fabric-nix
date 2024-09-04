@@ -10,6 +10,7 @@
   gdk-pixbuf,
   cinnamon,
   gnome,
+  pkg-config,
   wrapGAppsHook3,
 }:
 
@@ -26,8 +27,8 @@ python311Packages.buildPythonPackage {
   };
 
   nativeBuildInputs = [
+    pkg-config
     wrapGAppsHook3
-    gtk3
     gobject-introspection
     cairo
   ];
@@ -35,9 +36,7 @@ python311Packages.buildPythonPackage {
   propagatedBuildInputs = [
     gtk3
     gtk-layer-shell
-    cairo
     libdbusmenu-gtk3
-    gdk-pixbuf
     cinnamon.cinnamon-desktop
     gnome.gnome-bluetooth
   ];
