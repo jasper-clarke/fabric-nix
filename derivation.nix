@@ -21,8 +21,8 @@ python311Packages.buildPythonPackage {
   src = fetchFromGitHub {
     owner = "Fabric-Development";
     repo = "fabric";
-    rev = "b40263bd15db9a7ad7fe7c764dd409aaa615622b";
-    sha256 = "sha256-8HrzieeOj9dmRNXXV1AA6jV7COVYPnD7dK9npPxtER4=";
+    rev = "1134b7f96ecc54d2626788ad59b4717ed86e5cf4";
+    sha256 = "sha256-t+tb+0isS/AloTd+HUkCvfpNXOl6RkkenIPxMsk++LA=";
   };
 
   nativeBuildInputs = [
