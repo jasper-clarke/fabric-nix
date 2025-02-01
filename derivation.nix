@@ -23,7 +23,7 @@ python312Packages.buildPythonPackage {
     owner = "Fabric-Development";
     repo = "fabric";
     rev = "5ab94b5e64ba342af2ef2abf829d1f2b0d9a032a";
-    sha256 = lib.fakeSha256;
+    hash = "sha256-5yMT4AZpUKHV+Th21zsAWmTQUwNk079zP7IOD2ASWlI=";
   };
 
   nativeBuildInputs = [
