@@ -1,7 +1,7 @@
 {
   lib,
   fetchFromGitHub,
-  python311Packages,
+  python312Packages,
   gtk3,
   gtk-layer-shell,
   cairo,
@@ -14,7 +14,7 @@
   wrapGAppsHook3,
 }:
 
-python311Packages.buildPythonPackage {
+python312Packages.buildPythonPackage {
   pname = "python-fabric";
   version = "0.0.1";
   pyproject = true;

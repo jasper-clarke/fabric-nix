@@ -16,7 +16,7 @@
       in
       {
         formatter = pkgs.nixfmt-rfc-style;
-        packages.default = pkgs.python3Packages.python-fabric;
+        packages.default = pkgs.python312Packages.python-fabric;
         devShells.default = pkgs.callPackage ./shell.nix { };
         overlays.default = overlay;
       }
