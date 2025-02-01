@@ -41,7 +41,7 @@ python312Packages.buildPythonPackage {
     gnome.gnome-bluetooth
   ];
 
-  dependencies = with python311Packages; [
+  dependencies = with python312Packages; [
     setuptools
     click
     pycairo
